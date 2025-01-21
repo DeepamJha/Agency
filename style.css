@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy", "Helvetica Neue", Helvetica, Arial;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    background-color: #111;
+}
+#page1{
+    height: 100vh; 
+    /* bcz parents doesnt have a height so no 100% but VH */
+    width: 100%;
+    background-color: #151515;
+}
