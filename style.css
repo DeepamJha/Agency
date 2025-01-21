@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Gilroy", "Helvetica Neue", Helvetica, Arial;
+    color: white;
+    font-family: "Plain Light";
 }
 html,body{
     height: 100%;
@@ -19,3 +20,17 @@ html,body{
     width: 100%;
     background-color: #151515;
 }
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #0b0b0b;
+    padding: 20vh 10vw;
+}
+.line h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
