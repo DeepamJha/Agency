@@ -1,26 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
     font-family: "Plain Light";
 }
-html,body{
+
+html, body {
     height: 100%;
     width: 100%;
 }
 
-#main{
+#main {
     position: relative;
     background-color: #111;
 }
-#page1{
-    height: 100vh; 
-    /* bcz parents doesnt have a height so no 100% but VH */
+
+#page1 {
+    height: 100vh;
     width: 100%;
     background-color: #151515;
 }
-#loader{
+
+#loader {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -28,9 +30,40 @@ html,body{
     background-color: #0b0b0b;
     padding: 20vh 10vw;
 }
-.line h1{
-    font-size: 5vw;
-    text-transform: uppercase;
-    font-weight: 500;
+
+.line {
+    overflow: hidden;
+    height: fit-content;
+    display: flex;
+    align-items: center;  /* Changed from align-content */
+    gap: 1vw;
 }
 
+#line1-part1 {  /* Changed to match HTML ID */
+    display: flex;
+    align-items: center;  /* Changed from align-content */
+    justify-content: center;
+    gap: 1.5vw;
+}
+
+#line1-part1 h5, #line1-part1 h6 {  /* Changed to match HTML ID */
+    font-size:  3vw;
+    font-weight: 100;
+    font-family: "Silk Serif";
+}
+
+#line1-part1 h5{
+    width: 5vw;
+    text-align: right;
+}
+
+.line h1 {
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 530;   
+}
+
+.line h2 {
+    font-size: 6.1vw;
+    text-transform: uppercase;
+}
